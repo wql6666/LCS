@@ -12,7 +12,7 @@ import (
 
 func main() {
 	filename := "/home/alan8254402/go/src/LCS/config/logAgent.conf"
-	//加载配置文件
+	//加载配置文件,啦啦试验下git
 	err := loadConf("ini", filename)
 	if err != nil {
 		fmt.Println("load conf failed,err=", err)
